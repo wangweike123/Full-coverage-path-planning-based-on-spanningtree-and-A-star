@@ -33,7 +33,8 @@ Precondition: 要求输入的地图四周确确实实封闭，且机器人在一
 
 1. `Main.py` 中将 `map_path` 改为想要读入的 `smap` 格式文件
 2. 将 `planner = PathPlanner(my_map, 20, 10)` 最后两个参数(这个例子中是x坐标为20m,y坐标为10m)改为机器人起始位置的坐标
-3. 运行 `Main.py`
+3. 运行 `main.py`可以进行全覆盖规划以及路径重规划
+4. 运行 `path_with_obstacle.py`可以进行考虑避障局部路径重规划
 
 ### 非 SEER smap 格式
 
